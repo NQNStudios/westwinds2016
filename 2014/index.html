@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="google-site-verification" content="Ner_HD3sCwNv2yIcFtQGq_ZqNt4py2BjwPnVFrqthOg" />
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>West Winds 2014</title>
+
+    <style type="text/css">
+    	/* specific to index.html */
+    	body , body * {
+    		margin: 0;
+        padding: 0;
+        overflow-x: scroll;
+        overflow-y: hidden; 
+        height: 100%;
+        /*padding-right: 1000px;*/
+    	}
+
+      img#index {
+        position: absolute;
+        width: auto;
+        height: 100%;
+      }
+    	
+    	img#bg-h {
+        position: fixed;
+        right: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+    	}
+    </style>
+  </head>
+
+  <body>
+  	<img src="images/index.jpg" usemap="#links" id="index" height="2700" width="4800" />
+    <img src="images/index-bg-h.jpg" id="bg-h" />
+
+	<map name="links">
+		<area href="music.html" shape="rect" coords="324,364,1288,634" style="outline:none;" target="_self" />
+		<area href="search.html" shape="rect" coords="1398,362,2354,632" style="outline:none;" target="_self" />
+		<area href="appreciations.html" shape="rect" coords="2854,196,3810,466" style="outline:none;" target="_self" />
+		<area href="art.html" shape="rect" coords="3498,740,3982,978" style="outline:none;" target="_self" />
+		<area href="video.html" shape="rect" coords="2718,744,3390,978" style="outline:none;" target="_self" />
+		<area href="photography.html" shape="rect" coords="1844,746,2630,976" style="outline:none;" target="_self" />
+		<area href="prose.html" shape="rect" coords="1006,744,1734,974" style="outline:none;" target="_self" />
+		<area href="poetry.html" shape="rect" coords="322,742,898,976" style="outline:none;" target="_self" />
+		<area href="alum.html" shape="rect" coords="326,1710,902,2032" style="outline:none;" target="_self" />
+		<area href="archive.html" shape="rect" coords="1060,2388,1716,2642" style="outline:none;" target="_self" />
+		<area href="letterfromemma.html" shape="rect" coords="2364,2364,3928,2640" style="outline:none;" target="_self" />
+		<area href="staff.html" shape="rect" coords="1872,1596,2214,1786" style="outline:none;" target="_self" />
+	</map>
+  
+  <script src="jquery.js"></script>
+  <script src="jquery.rwdImageMaps.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+        $('#index').rwdImageMaps();
+    });
+  </script>
+
+  <div style="width: 140%; position: relative; right: 0; visibility: hidden;">&nbsp;</div>
+
+  </body>
+</html>
