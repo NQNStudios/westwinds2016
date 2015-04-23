@@ -8,6 +8,11 @@ for x in sys.stdin:
 html = "\n".join(lines)
 
 soup = bs4.BeautifulSoup(html)
-soup.head.clear()
-contents="\n".join(soup.html.strings)
-print(contents)
+soup.head.extract()
+
+withheld = False
+for x in soup.html.descendants:
+	if withheld:
+		print(x.encode("utf-8"))
+	else:
+		withheld = True
