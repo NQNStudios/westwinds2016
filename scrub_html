@@ -1,0 +1,8 @@
+#take out span tags
+perl -pi -w -e 's/<span[^>]*>([^<]*)<\/span>/$1/g;' *.html
+
+#take out p tags and add line breaks where they were
+perl -pi -w -e 's/<p[^>]*>([^<]+)<\/p>/$1<br \/>/g;' *.html
+
+#keep only the real text
+perl -pi -w -e 's/<body[^>]*>(.*)<\/body>/$1/g;' *.html
