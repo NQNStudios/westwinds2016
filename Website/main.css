@@ -1,0 +1,33 @@
+img#background {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.columns {
+	position: relative;
+	padding-top: 4%;
+}
+.left {
+	position: absolute;
+	left: 5%;
+	width: 40%;
+
+	border: 1px solid red;
+}
+.right {
+	position: absolute;
+	right: 5%;
+	width: 40%;
+
+	border: 1px solid blue;
+}
+
+img#logo {
+	position: relative;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
