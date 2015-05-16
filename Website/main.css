@@ -41,6 +41,15 @@ ul {
 	font-size: 20pt;
 }
 
+.navigation-list a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navigation-list a:hover {
+	text-decoration: underline;
+}
+
 .columns {
 	position: relative;
 	padding-top: 4%;
@@ -48,12 +57,14 @@ ul {
 .left {
 	position: absolute;
 	left: 5%;
-	width: 40%;
+	width: 30%;
+	/*border: 1px solid red;*/
 }
 .right {
 	position: absolute;
-	right: 5%;
-	width: 40%;
+	right: 4%;
+	width: 53%;
+	/*border: 1px solid blue;*/
 }
 
 img#logo {
