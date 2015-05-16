@@ -1,0 +1,10 @@
+name: "West Winds"
+description: ""
+
+url: "http://localhost:4000"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: none
+highlighter: null

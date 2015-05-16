@@ -1,0 +1,75 @@
+body {
+	font-family: "latin_modern_typewriter";
+	letter-spacing: -2px;
+}
+
+img#background {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25pt;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+ul {
+	margin-top: -10px;
+}
+
+.work-title {
+	font-size: 20pt;
+	text-decoration: underline;
+}
+
+.work-text {
+	white-space: pre-line;
+	font-size: 20pt;
+	line-height: 30px;
+	
+	margin-top: -30px;
+	margin-bottom: 30px;
+}
+
+.navigation-list li {
+	font-size: 20pt;
+}
+
+.navigation-list a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.navigation-list a:hover {
+	text-decoration: underline;
+}
+
+.columns {
+	position: relative;
+	padding-top: 4%;
+}
+.left {
+	position: absolute;
+	left: 5%;
+	width: 30%;
+	/*border: 1px solid red;*/
+}
+.right {
+	position: absolute;
+	right: 4%;
+	width: 53%;
+	/*border: 1px solid blue;*/
+}
+
+img#logo {
+	position: relative;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
