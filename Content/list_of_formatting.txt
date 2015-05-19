@@ -1,4 +1,0 @@
-poetry:
-cheri - an elder tale: italics
-izzy s. - submission 1 and 3: italics
-scout - yellow flicker and aria: italics
