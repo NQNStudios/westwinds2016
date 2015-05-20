@@ -1,7 +1,7 @@
 ---
 title: Prose
 layout: default
-content_list:
+content_list_text:
  - Freedom in Body Positivity by Alicia Neilson: Alicia-Neilson_Freedom-in-Body-Positivity.html
  - Waiting in Water by Carter Peterson: Carter-Peterson_Waiting-in-Water.html
  - Short Story by Juyoung Kim: Juyoung-Kim_Short-Story.html

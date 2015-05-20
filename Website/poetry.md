@@ -1,7 +1,7 @@
 ---
 title: Poetry
 layout: default
-content_list:
+content_list_text:
  - My Lemon Tree by Alexander Cooper: Alexander-Cooper_My-Lemon-Tree.html
  - Isn't it odd by Anonymous: Anonymous_Isn't-it-odd.html
  - Peter O'Toole by Anonymous: Anonymous_Peter-O'Toole.html

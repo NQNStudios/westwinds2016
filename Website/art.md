@@ -1,7 +1,7 @@
 ---
 title: Art
 layout: default
-content_list:
+content_list_images:
  - Becca by Ana Steenblik: Ana-Steenblik_Becca.jpg
  - Carmen by Ana Steenblik: Ana-Steenblik_Carmen.jpg
  - Ishaid by Ana Steenblik: Ana-Steenblik_Ishaid.jpg
