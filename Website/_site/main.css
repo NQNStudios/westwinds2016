@@ -36,12 +36,13 @@ ul {
 .work-title {
 	font-size: 20pt;
 	text-decoration: underline;
+	margin-bottom: 5px;
 }
 
 .work-text {
 	white-space: pre-line;
-	font-size: 20pt;
-	line-height: 30px;
+	font-size: 15pt;
+	line-height: 25px;
 	
 	margin-top: -30px;
 	margin-bottom: 30px;
