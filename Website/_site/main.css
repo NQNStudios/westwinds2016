@@ -3,6 +3,11 @@ body {
 	letter-spacing: -2px;
 	height: 100%;
 	width: 100%;
+	color: black;
+}
+
+a {
+	color: black;
 }
 
 iframe {
@@ -109,5 +114,27 @@ img#logo {
 	position: relative;
 	width: 80%;
 	display: block;
+	margin: 0 auto;
+}
+
+.cover {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 35px;
+	line-height: 30px;
+	/*border: 1px solid red;*/
+}
+.cover p {
+	margin: 0;
+	margin-bottom: 20px;
+	text-align: center;
+	vertical-align: text-bottom;
+	font-family: "latin_modern_typewriter";
+	text-decoration: underline;
+	/*border: 1px solid lime;*/
+}
+
+.cover-img {
+	width: 400px;
 	margin: 0 auto;
 }

@@ -59,6 +59,17 @@
 	 	        {{content}}
 	 	    	</div>
 
+	 	    	<!-- CONTENT FOR THE ARCHIVE PAGE -->
+				{% for hash in page.archive_list %}
+					<a href="{{hash.link}}">
+					<div class="cover">
+						<img class="cover-img" src="assets/{{hash.image}}"/>
+						<br />
+						<p>{{hash.year}}</p>
+					</div>
+					</a>
+				{% endfor %}
+
  	    	</div>
 
 	    </div>
