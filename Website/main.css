@@ -122,7 +122,8 @@ img#logo {
 	vertical-align: middle;
 	font-size: 35px;
 	line-height: 30px;
-	/*border: 1px solid red;*/
+	width: 30%;
+	/*border: 1px solid lime;*/
 }
 .cover p {
 	margin: 0;
@@ -131,10 +132,9 @@ img#logo {
 	vertical-align: text-bottom;
 	font-family: "latin_modern_typewriter";
 	text-decoration: underline;
-	/*border: 1px solid lime;*/
 }
 
 .cover-img {
-	width: 400px;
-	margin: 0 auto;
+	position: relative;
+	left: 10%;
 }
