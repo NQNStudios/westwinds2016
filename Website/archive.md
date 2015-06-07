@@ -2,6 +2,8 @@
 title: Archive
 layout: default
 archive_list:
+ - {image: /archive/covers/cover_2014_website.jpg, link: /2014, year: 2014 (online)}
+ - {image: /archive/covers/cover_2013_website.jpg, link: /2013, year: 2013 (online)}
  - {image: /archive/covers/cover_2012.jpg, link: /archive/2012.pdf, year: 2012}
  - {image: /archive/covers/cover_2011.jpg, link: /archive/2011.pdf, year: 2011}
  - {image: /archive/covers/cover_2010.jpg, link: /archive/2010.pdf, year: 2010}
