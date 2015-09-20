@@ -20,6 +20,4 @@ I have seen this magazine do so much for so many people. We have met our best fr
 
 Best of luck,
 
-<img src="assets/images/signature.png" height="100">
-
 Carolyn Eugenia Janecek, Editor-in-Chief 2015
