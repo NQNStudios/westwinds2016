@@ -1,7 +1,8 @@
 name: "West Winds"
 description: ""
 
-url: "http://localhost:4000"
+url: "http://www.westwindsmag.com"
+baseurl: "/2015/"
 
 paginate: 10
 
