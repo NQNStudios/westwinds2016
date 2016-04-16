@@ -1,6 +1,5 @@
 ---
 layout: default
-title: home
 ---
 
-// TODO cover picture
+![Cover](assets/cover.jpg)
