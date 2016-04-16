@@ -1,11 +1,19 @@
-name: "West Winds"
-description: ""
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-url: "http://www.westwindsmag.com"
-baseurl: "/2015/"
+# Site settings
+title: "West Winds 2016: \"Community\""
 
-paginate: 10
+# NOTE TO FUTURE LIAM: Change baseurl to "/2016" when archiving this year's site
+# This will automatically update all 2016 links to point to their new archived
+# location
+baseurl: "" # the subpath of your site, e.g. /blog
 
-markdown: rdiscount
-permalink: none
-highlighter: null
+url: "http://westwindsmag.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
