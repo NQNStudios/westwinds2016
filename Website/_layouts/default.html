@@ -7,13 +7,20 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="columns">
+      <div class="nav-column">
+        <h1 class="page-heading">Contents</h1>
+        <!-- TODO this is where page links go -->
+      </div>
+      <div class="content-column">
+        <h1 class="page-heading">{{ page.title }}</h1>
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
       </div>
     </div>
-
-    {% include footer.html %}
 
   </body>
 

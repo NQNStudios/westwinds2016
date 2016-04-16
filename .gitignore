@@ -2,3 +2,4 @@ Website/_site
 Website/archive
 .DS_Store
 
+*.swp
