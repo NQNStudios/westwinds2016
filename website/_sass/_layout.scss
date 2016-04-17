@@ -131,3 +131,33 @@
         }
     }
 }
+
+.poetry-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 10%;
+        margin-bottom: 0;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
+}
