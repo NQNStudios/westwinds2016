@@ -8,10 +8,10 @@
 # Site settings
 title: "West Winds 2016: \"Community\""
 
-# NOTE TO FUTURE LIAM: Change baseurl to "/2016" when archiving this year's site
+# NOTE TO FUTURE LIAM: Change baseurl to "/2016/" when archiving this year's site
 # This will automatically update all 2016 links to point to their new archived
 # location
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog/
 
 url: "http://westwindsmag.com" # the base hostname & protocol for your site
 
