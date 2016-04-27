@@ -16,7 +16,7 @@ Why did you insist on leading me on?
 
 Who are you to do that to someone?
 
-*
+<br />
 
 Four years of fawning over you.
 
@@ -36,7 +36,7 @@ You were the sunshine in the grey sky,
 
 I was head over heels in love.
 
-*
+<br />
 
 Four years of tearing myself down.
 
@@ -68,7 +68,7 @@ Hating my body, hating my self.
 
 Just to fit your definition of "beautiful"
 
-*
+<br />
 
 Four years of tears, dripping down my face.
 
@@ -94,7 +94,7 @@ Treating you like the victim.
 
 I was afraid of losing you.
 
-*
+<br />
 
 "He's worried about getting hurt."
 
@@ -120,7 +120,7 @@ I trusted you with my emotions,
 
 I trusted you with my life.
 
-*
+<br />
 
 Four years of indecisiveness.
 

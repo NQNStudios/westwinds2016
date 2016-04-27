@@ -42,13 +42,13 @@ Contents
 
 {% for piece in page.pieces %}
 
-* [{{ piece.title }}](#{{ piece.title }}) by {{ piece.author }}
+* [{{ piece.title }}](#{{ piece.file }}) by {{ piece.author }}
 
 {% endfor %}
 
 {% for piece in page.pieces %}
 
-### "{{ piece.title }}" by {{ piece.author }} <a name="{{ piece.title }}">&nbsp;</a>
+### "{{ piece.title }}" by {{ piece.author }} <a name="{{ piece.file }}">&nbsp;</a>
 
 {% include {{ piece.file }} %}
 
