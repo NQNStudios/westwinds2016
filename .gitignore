@@ -3,3 +3,6 @@ Website/archive
 .DS_Store
 
 *.swp
+
+.sass-cache/
+_site/
