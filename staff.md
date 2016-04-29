@@ -5,30 +5,32 @@ title: Staff
 
 ![Staff](assets/cuties.bmp)
 
-### Editor-in-Chief: Isabelle Srivastava
+### Editor-in-Chief: Isabelle Srivastava ###
 
-### Assistant Editor: Claire Adler
+### Assistant Editor: Claire Adler ###
 
-### Art Editor: Ely Kauffman
+### Art Editor: Ely Kauffman ###
 
-### Photography Editor: Yuanhang Zhao
+### Photography Editor: Yuanhang Zhao ###
 
-### Online Editor: Nathaniel Nelson
+### Online Editor: Nathaniel Nelson ###
 
-### Submissions Editors
+### Faculty Supervisor: Jefferson Packer ###
+
+### Submissions Editors ###
 
 * Lina Boyer
 * Charlotte Williams
 * Emily Wu
 * Juyoung Kim
 
-### Publicity Team
+### Publicity Team ###
 
 * Maggie Olvera
 * Edward Barrowes
 * Vismaya Kharkar
 
-### Staff
+### Staff ###
 
 * Isa Kluger
 * Nina Done
