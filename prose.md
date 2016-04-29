@@ -46,6 +46,8 @@ Contents
 
 {% endfor %}
 
+---
+
 {% for piece in page.pieces %}
 
 ### "{{ piece.title }}" by {{ piece.author }} <a name="{{ piece.file }}">&nbsp;</a>

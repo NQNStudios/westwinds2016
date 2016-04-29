@@ -46,6 +46,8 @@ Contents
 
 {% endfor %}
 
+---
+
 {% for poem in page.poems %}
 
 ### {{ poem.title }} <a name="{{poem.file}}">&nbsp;</a>
