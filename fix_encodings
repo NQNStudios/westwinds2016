@@ -1,2 +1,0 @@
-perl -pi -w -e 's/Ê//g;' *.html
-perl -pi -w -e 's/Õ/&apos;/g;' *.html

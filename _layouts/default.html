@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="columns">
+      <div class="nav-column">
+        <h1 class="page-heading">Contents</h1>
+        <img src="assets/vine.svg"></img>
+        <!-- TODO this is where page links go -->
+        <div class="page-list">
+          <a class="page-link" href="{{site.baseurl}}index.html">Cover</a>
+          <a class="page-link" href="{{site.baseurl}}about.html">About</a>
+          <a class="page-link" href="{{site.baseurl}}staff.html">Staff</a>
+          <a class="page-link" href="{{site.baseurl}}letter.html">Letter from the Editor</a>
+          <a class="page-link" href="{{site.baseurl}}poetry.html">Poetry</a>
+          <a class="page-link" href="{{site.baseurl}}prose.html">Prose</a>
+          <a class="page-link" href="{{site.baseurl}}photography.html">Photography</a>
+          <a class="page-link" href="{{site.baseurl}}art.html">Art</a>
+          <a class="page-link" href="{{site.baseurl}}archive.html">Archive</a>
+        </div>
+      </div>
+      <div class="content-column">
+        <h1 class="page-heading">{{ page.title }}</h1>
+        <div class="page-content">
+          <div class="wrapper">
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,119 @@
+/**
+ * Site header
+ */
+.site-header {
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+.site-title {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
+    }
+}
+
+.columns {
+  padding-top: 3%;
+}
+
+.nav-column {
+  position: absolute;
+	left: 5%;
+	width: 30%;
+}
+
+.content-column {
+	position: absolute;
+	right: 4%;
+	width: 60%;
+	height: 100%;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: $spacing-unit 0;
+}
+
+.page-heading {
+    font-size: 32px;
+}
+
+/* TODO is this necessary? */
+.page-list {
+    margin-left: 0;
+    list-style: none;
+
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
+
+.page-link {
+    display: block;
+    font-size: 24px
+}
+
+.page-header {
+    margin-bottom: $spacing-unit;
+}
+
+.page-title {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+.page-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+}
+
+.poetry-content {
+    margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 10%;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 0.25em;
+        margin-bottom: 0.25em;
+        text-indent: -40px;
+        padding-left: 40px;
+    }
+}
